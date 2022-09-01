@@ -1,0 +1,48 @@
+.page {
+  display: flex;
+  background-color: rgb(20, 16, 16);
+  color: rgb(115, 117, 119);
+  height: 300px;
+  margin: 150px 10% 50px 0;
+  padding-left: 5%;
+  font-size: x-large;
+}
+li {
+  padding: 4px 0;
+}
+.head {
+  color: aliceblue;
+  line-height: 50px;
+  text-decoration: 4px underline rgba(241, 7, 7, 0.956);
+}
+.head:hover {
+  background-color: rgba(52, 96, 85, 0.618);
+  color: rgba(17, 210, 62, 0.738);
+}
+ul {
+  list-style: none;
+}
+li:hover {
+  background-color: rgba(33, 16, 125, 0.827);
+  color: aliceblue;
+}
+li > a {
+  color: rgb(18, 81, 241);
+}
+.icon:hover {
+  background-color: black;
+}
+.but {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: white;
+}
+.but > a {
+  padding: 15px 25px;
+  background-color: rgb(1, 204, 255);
+}
+.but > a:hover {
+  background-color: #11c1c7d5;
+}

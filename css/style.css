@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(143, 206, 222);
+  font-family: "Fuzzy Bubbles", cursive;
+}
+header {
+  position: absolute;
+  top: 25px;
+  left: 25%;
+  z-index: 1;
+  color: rgb(160, 23, 23);
+}
+header > img {
+  border-radius: 25px;
+  width: 200px;
+}
+
+main {
+  position: relative;
+  background-color: rgb(63, 148, 212);
+  color: aliceblue;
+  width: 75%;
+  height: 150px;
+  margin: 200px auto 30px 15%;
+}
+
+footer {
+  padding: auto;
+  margin: 0px 25%;
+  color: rgb(209, 166, 26);
+}
+footer > iframe {
+  box-shadow: 10px 0px 35px 10px rgba(165, 42, 42, 0.533);
+  border-top: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 65%;
+}
+ul > li {
+  padding-top: 12px;
+}
+.but {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: white;
+}
+.but > a {
+  padding: 15px 25px;
+  background-color: rgb(1, 204, 255);
+}
+.but > a:hover {
+  background-color: #11c1c7d5;
+}
